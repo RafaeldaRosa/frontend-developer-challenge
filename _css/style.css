@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+div#interface {
+    margin: -8px;
+    margin-bottom: -100px;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header#cabecalho {
+    height: 319px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+header#cabecalho h3 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 227px;
+    height: 23px;
+    text-align: center;
+    font: Regular 20px/24px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+header#cabecalho h2 {
+    top: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -23px;
+    width: 358px;
+    height: 48px;
+    text-align: center;
+    font: Bold 40px/49px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+header#cabecalho h4 {
+    top: 164px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 590px;
+    height: 16px;
+    text-align: center;
+    font: Regular 14px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    left: 240px;
+    width: 820px;
+    height: 50px;
+    opacity: 1;
+}
+
+nav#menu li {
+    display: inline-block;
+    margin: 20px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+nav#menu a {
+    top: 242px;
+    left: 402px;
+    width: 98px;
+    height: 16px;
+    margin-top: 10px;
+    font: Regular 14px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#prancheta1 h3 {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 181px;
+    height: 22px;
+    text-align: right;
+    font: Bold 18px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#prancheta1 {
+    background-color: aquamarine;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+div#prancheta2 {
+    background-color: aquamarine;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+table#table1 {
+    display: inline-grid;
+    margin-left: 20%;
+}
+
+table#table2 {
+    display: inline-grid;
+}
+
+table#table3 {
+    display: inline-grid;
+}
+
+table#table4 {
+    display: inline-grid;
+}
+
+table#table5 {
+    display: inline-grid;
+    margin-left: 20%;
+}
+
+table#table6 {
+    display: inline-grid;
+}
+
+table#table7 {
+    display: inline-grid;
+}
+
+table#table8 {
+    display: inline-grid;
+}
+
+img.image {
+    left: 286px;
+    width: 200px;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+p.nameProduct {
+    margin-top: 10px;
+    left: 285px;
+    width: 120px;
+    height: 16px;
+    text-align: left;
+    font: Regular 14px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+p.description {
+    margin-top: -5px;
+    left: 286px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: Regular 12px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+p.oldPrice {
+    margin-top: -10px;
+    left: 286px;
+    width: 70px;
+    height: 14px;
+    text-align: left;
+    font: Regular 12px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+p.price {
+    left: 286px;
+    width: 96px;
+    height: 19px;
+    text-align: left;
+    font: Bold 16px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+p.installments {
+    margin-top: -10px;
+    left: 286px;
+    width: 120px;
+    height: 14px;
+    text-align: left;
+    font: Regular 12px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#divButton {
+    margin-left: 43%;
+}
+
+button#button {
+    margin-top: 15px;
+    left: 286px;
+
+    width: 200px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+p#pButton {
+    width: auto;
+    text-align: center;
+    margin-top: 6px;
+    font: Regular 16px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#prancheta3 h3 {
+    width: 204px;
+    height: 22px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font: Bold 18px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#prancheta3 h4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 577px;
+    height: 16px;
+    text-align: center;
+    font: Regular 14px/16px Helvetica Neue;
+    letter-spacing: 0;  
+    color: #888888;
+    opacity: 1;
+}
+
+div#fild {
+    margin-bottom: 100px;
+}
+
+div#fildNome {
+    display: inline-grid;
+    margin-left: 21%;
+    width: 112px;
+    height: 14px;
+    text-align: left;
+    font: Regular 12px/14px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#fildNome h5 {
+    text-align: left;
+    width: 120px;
+    height: 14px;
+    text-align: left;
+    font: Regular 12px/14px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#fildEmail {
+    display: inline-grid;
+    width: 37px;
+    height: 14px;
+    text-align: left;
+    font: Regular 12px/14px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#fildEmail h5 {
+    margin-left: 95%;
+    width: 50px;
+    height: 14px;
+    text-align: left;
+    font: Regular 12px/14px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+div#fild input {
+    width: 340px;
+    height: 30px;
+    margin-top: -15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+div#fildEmail input {
+    margin-left: 95%;
+}
+
+button#buttonSubmit {
+    width: 260px;
+    height: 39px;
+    margin-left: 40%;
+    margin-top: -30px;
+    margin-bottom: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+button#buttonSubmit p {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 89px;
+    height: 18px;
+    text-align: left;
+    font: Regular 16px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+footer#rodape {
+    height: 201px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+footer#rodape div#path1 {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 50px;
+}
+footer#rodape p {
+    text-align: center;
+    margin: 5px;
+    font: Regular 12px/18px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}

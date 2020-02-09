@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
+    <script type="text/javascript" src="_js/index.js"></script>
+</head>
+
+<body onload="loadDoc()">
+    <!--<h2>The XMLHttpRequest Objec</h2>
+    <p id="demo">Let AJAX change this text</p>
+    <button type="button" onclick="loadDoc()">Change Content</button>-->
+    <div id="interface">
+
+        <header id="cabecalho">
+            <hgroup>
+                <h3>uma seleção de produtos</h3>
+                <h2>especial para você</h2>
+                <h4>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h4>
+            </hgroup>
+            <nav id="menu">
+                <ul type="none">
+                    <li><a>Conheça a Linx</a></li>
+                    <li><a>Ajude o algoritmo</a></li>
+                    <li><a>Seus produtos</a></li>
+                    <li><a>Compartilhe</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="prancheta1">
+            <h3>Sua seleção especial</h3>
+            <table id="table1">
+                <tr>
+                    <td>
+                        <img id="image0" class="image" width="100px" height="100px" />
+                        <p id="nameProduct0" class="nameProduct"></p>
+                        <p id="description0" class="description"></p>
+                        <p id="oldPrice0" class="oldPrice"></p>
+                        <p id="price0" class="price"></p>
+                        <p id="installments0" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table id="table2">
+                <tr>
+                    <td>
+                        <img id="image1" class="image" width="100px" height="100px" />
+                        <p id="nameProduct1" class="nameProduct"></p>
+                        <p id="description1" class="description"></p>
+                        <p id="oldPrice1" class="oldPrice"></p>
+                        <p id="price1" class="price"></p>
+                        <p id="installments1" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table id="table3">
+                <tr>
+                    <td>
+                        <img id="image2" class="image" width="100px" height="100px" />
+                        <p id="nameProduct2" class="nameProduct"></p>
+                        <p id="description2" class="description"></p>
+                        <p id="oldPrice2" class="oldPrice"></p>
+                        <p id="price2" class="price"></p>
+                        <p id="installments2" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table id="table4">
+                <tr>
+                    <td>
+                        <img id="image3" class="image" width="100px" height="100px" />
+                        <p id="nameProduct3" class="nameProduct"></p>
+                        <p id="description3" class="description"></p>
+                        <p id="oldPrice3" class="oldPrice"></p>
+                        <p id="price3" class="price"></p>
+                        <p id="installments3" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="prancheta2">
+            <table id="table5">
+                <tr>
+                    <td>
+                        <img id="image4" class="image" width="100px" height="100px" />
+                        <p id="nameProduct4" class="nameProduct"></p>
+                        <p id="description4" class="description"></p>
+                        <p id="oldPrice4" class="oldPrice"></p>
+                        <p id="price4" class="price"></p>
+                        <p id="installments4" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table id="table6">
+                <tr>
+                    <td>
+                        <img id="image5" class="image" width="100px" height="100px" />
+                        <p id="nameProduct5" class="nameProduct"></p>
+                        <p id="description5" class="description"></p>
+                        <p id="oldPrice5" class="oldPrice"></p>
+                        <p id="price5" class="price"></p>
+                        <p id="installments5" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table id="table7">
+                <tr>
+                    <td>
+                        <img id="image6" class="image" width="100px" height="100px" />
+                        <p id="nameProduct6" class="nameProduct"></p>
+                        <p id="description6" class="description"></p>
+                        <p id="oldPrice6" class="oldPrice"></p>
+                        <p id="price6" class="price"></p>
+                        <p id="installments6" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table id="table8">
+                <tr>
+                    <td>
+                        <img id="image7" class="image" width="100px" height="100px" />
+                        <p id="nameProduct7" class="nameProduct"></p>
+                        <p id="description7" class="description"></p>
+                        <p id="oldPrice7" class="oldPrice"></p>
+                        <p id="price7" class="price"></p>
+                        <p id="installments7" class="installments"></p>
+                        <button id="button">
+                            <p id="pButton">Comprar</p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divButton">
+            <button id="button" onclick="loadDoc()">
+                <p id="pButton">Ainda mais produtos aqui!</p>
+            </button>
+        </div>
+        <div id="prancheta3">
+            <h3>Compartilhe a novidade</h3>
+            <h4>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h4>
+        </div>
+        <div id="fild">
+            <div id="fildNome" type="text">
+                <h5>Nome do seu amigo:</h5>
+                <input />
+            </div>
+            <div id="fildEmail" type="email">
+                <h5>E-mail:</h5>
+                <input />
+            </div>
+        </div>
+        <button id="buttonSubmit">
+            <p>Enviar agora</p>
+        </button>
+
+        <footer id="rodape">
+            <div id="path1">
+                <p>Testando suas habilidades em HTML, CSS e JS.</p>
+                <p>Linx Impulse</p>
+                <p> 2019</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
